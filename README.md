@@ -38,13 +38,13 @@ Puedes interactuar con la API utilizando herramientas como Postman o mediante Sw
 - **Registrar Usuario**: `POST /api/auth/register`
   - Cuerpo: 
     ```json
-    { "nombre": "nombre_usuario", "password": "contraseña" }
+    { "nombre": "nombre_usuario", "correo_electronico": "email", "password": "contraseña" }
     ```
 
 - **Iniciar Sesión**: `POST /api/auth/login`
   - Cuerpo: 
     ```json
-    { "nombre": "nombre_usuario", "password": "contraseña" }
+    { "correo_electronico": "email", "password": "contraseña" }
     ```
 
 ### 🎤 Trivia
